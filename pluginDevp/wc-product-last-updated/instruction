@@ -1,0 +1,24 @@
+# WooCommerce Product Last Updated
+
+## 📌 Overview:
+The **WooCommerce Product Last Updated** plugin adds a timestamp on product pages, indicating when the product details were last updated.
+
+## 🎯 Key Features:
+- 🕒 **Displays Last Updated Timestamp on Product Pages**
+- 🔄 **Works with All WooCommerce Product Types**
+- 🎨 **Customizable Placement & Styling**
+- 🚀 **Lightweight & Performance Optimized**
+
+## 🛠️ Installation:
+1. Upload the plugin folder to `wp-content/plugins/`.
+2. Activate the plugin via **WordPress Admin > Plugins**.
+
+## ⚙️ How to Use:
+1. Navigate to **WooCommerce > Settings > Product Update Timestamp**.
+2. Enable the **Show Last Updated Date** option.
+3. Choose where to display the timestamp (e.g., under the product title).
+4. Save changes.
+
+## 🎨 Customization:
+- Change the text format in the plugin settings.
+- Modify CSS for custom styling.
