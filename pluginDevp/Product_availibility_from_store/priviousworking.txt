@@ -3,7 +3,7 @@
 Plugin Name: Product Availability Status from Different Offline Stores
 Description: A plugin to add custom functionality and shortcodes for product availability.
 Version: 1.2
-Author: Anikesh Singh
+Author: Prince Kumar Singh
 */
 
 function product_availibility_from_store_enqueue_assets()
@@ -37,7 +37,7 @@ function product_availibility_from_store_check_availability()
     }
 
     // Make API call to fetch products
-    $products_response = wp_remote_get('https://altvapeinc.retail.lightspeed.app/api/3.0/products', array(
+    $products_response = wp_remote_get('LIGHTSPEED API', array(
         'headers' => array(
             'accept' => 'application/json',
             'Authorization' => 'Bearer lsxs_pt_Gb8aNwKOubkNR0BXVKD1ZErw1cxfJZuZ',
