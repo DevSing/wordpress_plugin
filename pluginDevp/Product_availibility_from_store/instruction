@@ -1,0 +1,24 @@
+# Product Availability from Store
+
+## 📌 Overview:
+The **Product Availability from Store** plugin enhances WooCommerce by allowing store owners to display product availability from different physical store locations. Customers can check product stock status before purchasing.
+
+## 🎯 Key Features:
+- ✅ **Check Product Availability by Location**
+- ✅ **Real-time Stock Updates**
+- ✅ **Seamless WooCommerce Integration**
+- ✅ **Customizable Display for Customers**
+
+## 🛠️ Installation:
+1. Download the plugin and extract the ZIP file.
+2. Upload the plugin folder to `wp-content/plugins/`.
+3. Activate the plugin from **WordPress Admin > Plugins**.
+
+## ⚙️ How to Use:
+1. Navigate to **WooCommerce > Product Availability Settings**.
+2. Add store locations and link products to available stores.
+3. Enable the display of stock status on product pages.
+
+## 🏗️ Customization:
+- You can modify the display format using shortcodes.
+- CSS styling can be adjusted in the WordPress **Customizer**.
