@@ -1,0 +1,26 @@
+# Elementor Product Showcase
+
+## 📌 Overview:
+This plugin introduces a **custom Elementor widget** to showcase WooCommerce products dynamically. Users can display product lists based on specific attributes like categories, colors, or tags.
+
+## 🎯 Key Features:
+- 🏆 **Custom Elementor Widget for WooCommerce**
+- 🎨 **Filter Products by Attributes**
+- 🔄 **Supports Pagination**
+- 📱 **Fully Responsive Layouts**
+
+## 🛠️ Installation:
+1. Download and extract the plugin ZIP file.
+2. Upload the plugin folder to `wp-content/plugins/`.
+3. Activate it from **WordPress Admin > Plugins**.
+
+## ⚙️ How to Use:
+1. Open any **page or post** in **Elementor Editor**.
+2. Find the **Product Showcase Widget** in Elementor.
+3. Drag & drop the widget to your page.
+4. Set filters like product attributes, categories, and layout.
+5. Click **Update** to save changes.
+
+## 🎨 Customization:
+- The widget settings allow users to modify the layout, colors, and product display.
+- Works seamlessly with Elementor’s global styles.
