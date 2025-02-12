@@ -3,7 +3,7 @@
  * Plugin Name: WooCommerce Product Last Updated
  * Description: Shows the date when a product was last added or updated in WooCommerce.
  * Version: 1.0
- * Author: Hubtec
+ * Author: DEVP
  */
 
 if (!defined('ABSPATH')) {
