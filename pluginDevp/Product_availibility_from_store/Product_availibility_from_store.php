@@ -38,7 +38,7 @@ function product_availibility_from_store_check_availability()
     }
 
     // Make API call to fetch products
-    $products_response = wp_remote_get('https://altvapeinc.retail.lightspeed.app/api/3.0/products', array(
+    $products_response = wp_remote_get('LIGHTSPEED_API_KEY', array(
         'headers' => array(
             'accept' => 'application/json',
             'Authorization' => 'Bearer lsxs_pt_Gb8aNwKOubkNR0BXVKD1ZErw1cxfJZuZ',
