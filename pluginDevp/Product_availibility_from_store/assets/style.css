@@ -1,0 +1,40 @@
+.icon-box {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    margin: 5px;
+    border-radius: 50px;
+}
+
+.icon-box .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+.green-cochrane, .green-transcanada, .green-strathmore, .green-heritage, .green-lethbridge-west, .green-online, .green-northland, .green-sage-hill,  .green-westhills {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.red-cochrane, .red-online, .red-strathmore, .red-heritage, .red-lethbridge-west, .red-transcanada, .red-northland, .red-sage-hill,  .red-westhills {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.inventory-status-checking {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #B8001F;
+	font-size: 20px;
+}
+
+.inventory-initiak-status {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #185519;
+	font-size: 20px;
+}
+
