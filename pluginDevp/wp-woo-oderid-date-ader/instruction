@@ -1,0 +1,27 @@
+# WooCommerce Order ID Date Adder
+
+## 📌 Overview:
+This plugin modifies WooCommerce **order IDs** to include the order date, ensuring unique tracking and preventing duplicate order numbers.
+
+## 🎯 Key Features:
+- 🔢 **Appends Order Date to WooCommerce Order IDs**
+- 🔄 **Prevents Duplicate Order Conflicts**
+- 📊 **Enhances Order Tracking & Reporting**
+- 🚀 **Fully Compatible with WooCommerce**
+
+## 🛠️ Installation:
+1. Install the plugin by uploading it to `wp-content/plugins/`.
+2. Activate it from **WordPress Admin > Plugins**.
+
+## ⚙️ How to Use:
+1. Go to **WooCommerce > Settings > Order ID Format**.
+2. Choose a format (`YYYYMMDD-OrderID` or custom).
+3. Enable **Auto Apply** for future orders.
+4. Save settings.
+
+## 🔧 Advanced Customization:
+- Modify order ID format using filters in `functions.php`:
+  ```php
+  add_filter('custom_order_id_format', function($order_id) {
+      return date('Ymd') . '-' . $order_id;
+  });
