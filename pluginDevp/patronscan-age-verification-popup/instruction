@@ -1,0 +1,25 @@
+# Patronscan Age Verification Popup
+
+## 📌 Overview:
+This plugin ensures compliance with age-restricted product sales by integrating **Patronscan’s age verification system** into WooCommerce.
+
+## 🎯 Key Features:
+- 🔒 **Automatic Age Verification Popup**
+- 🔄 **Integration with Patronscan API**
+- 🛠️ **Customizable Popup Design**
+- 🚀 **Compatible with WooCommerce Products**
+
+## 🛠️ Installation:
+1. Install the plugin by uploading it to `wp-content/plugins/`.
+2. Activate the plugin in **WordPress Admin > Plugins**.
+3. Navigate to **Settings > Age Verification** to configure the plugin.
+
+## ⚙️ How to Use:
+1. **Get API Credentials** from Patronscan.
+2. Enter the API key in the plugin settings.
+3. Choose where to show the popup (e.g., homepage, product pages).
+4. Customize the popup message and design.
+
+## 🔧 Advanced Customization:
+- Modify the CSS in the plugin settings for a branded popup design.
+- Enable logging to track verification requests.
